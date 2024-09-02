@@ -7,20 +7,20 @@
 NASTea Pi, a small pi powered NAS that is cheap to build, but as the saying goes, it's not exactly fast to build, and it's not overly that great either (see notes)
 
 Prerequisite Tools:
-Soldering Iron (and knowledge to use it)
-Screwdriver of your choice (Pair with the M3/M4 screws you use later)
-3D Printer
+- Soldering Iron (and knowledge to use it)
+- Screwdriver of your choice (Pair with the M3/M4 screws you use later)
+- 3D Printer
 
 Part List:
-1x Sparkfun USB-C Breakout
-3x 2.5inch 5400RPM SATA Hard Drives (Or SATA SSDs)
-1x Raspberry Pi (3,4, or 5)
-3x SATA to USB Adapters
-5x M4x5 Screws
-4x M3x30 Screws
-4x M3 Nuts
-1x 40x40x20mm 5V PWM Fan
-2x 5.1k ohm resistors
+- 1x Sparkfun USB-C Breakout
+- 3x 2.5inch 5400RPM SATA Hard Drives (Or SATA SSDs)
+- 1x Raspberry Pi (3,4, or 5)
+- 3x SATA to USB Adapters
+- 5x M4x5 Screws
+- 4x M3x30 Screws
+- 4x M3 Nuts
+- 1x 40x40x20mm 5V PWM Fan
+- 2x 5.1k ohm resistors
 
 Notes:
 I want this as a secondary site NAS that just sits in a corner and happily backs up data from my Synology disk station. It's not designed as a primary network storage device but I do want to come back around for a second revision and build a better one with better support for using drives at their full speed. This is wired in a way that you are limited to USB 2.0 Link speeds (even if you buy USB3.0 adapters). The PI does not have enough USB3 ports to connect all 3 drives so if another revision is done it will have to include a hub to act as a controller. Being that this has already gotten a bit out of hand scope wise, I didn't really feel like adding a custom PCB to the mix would be helpful. 
