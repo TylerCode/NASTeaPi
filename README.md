@@ -1,22 +1,24 @@
 # NASTeaPi
+
 **__THIS IS STILL A VERY WIP BUILD. I WOULD WAIT UNTIL THIS IS REMOVED BEFORE 3D PRINTING OR BUILDING THIS__**
 
 ![image](https://github.com/user-attachments/assets/d0cc242d-6f9c-4613-ae51-bb5666934720)
 
-
 NASTea Pi, a small pi powered NAS that is cheap to build, but as the saying goes, it's not exactly fast to build, and it's not overly that great either (see notes). 
 
 Prerequisite Tools:
+
 - Soldering Iron (and knowledge to use it)
 - Screwdriver of your choice (Pair with the M3/M4 screws you use later)
 - 3D Printer
 
 Part List:
+
 - 1x Sparkfun USB-C Breakout
 - 3x 2.5inch 5400RPM SATA Hard Drives (Or SATA SSDs)
-- 1x Raspberry Pi (2 or 3) (The case will include a 4/5 variant but I've decided to use a 3 for this project)
+- 1x Raspberry Pi (2,3,4, and 5 are supported but I'll be using a 3 for the guide)
 - 3x SATA to USB Adapters
-- 5x M4x5 Screws
+- 5x M4x10 Screws
 - 4x M3x30 Screws
 - 4x M3 Nuts
 - 1x 40x40x20mm 5V PWM Fan
