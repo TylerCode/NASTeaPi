@@ -18,7 +18,7 @@ Part List:
 - 3x 2.5inch 5400RPM SATA Hard Drives (Or SATA SSDs)
 - 1x Raspberry Pi (2,3,4, and 5 are supported but I'll be using a 3 for the guide)
 - 3x SATA to USB Adapters
-- 5x M4x10 Screws
+- 5x M4x6 Screws (x8 will work too)
 - 4x M3x30 Screws
 - 4x M3 Nuts
 - 1x 40x40x20mm 5V PWM Fan
