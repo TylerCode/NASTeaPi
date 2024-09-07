@@ -2,6 +2,8 @@
 
 **__THIS IS STILL A VERY WIP BUILD. I WOULD WAIT UNTIL THIS IS REMOVED BEFORE 3D PRINTING OR BUILDING THIS__**
 
+
+
 ![image](https://github.com/user-attachments/assets/d0cc242d-6f9c-4613-ae51-bb5666934720)
 
 NASTea Pi, a small pi powered NAS that is cheap to build, but as the saying goes, it's not exactly fast to build, and it's not overly that great either (see notes). 
@@ -23,6 +25,8 @@ Part List:
 - 4x M3 Nuts
 - 1x 40x40x20mm 5V PWM Fan
 - 2x 5.1k ohm resistors
+- 24ga wire for data
+- 16ga wire for power
 
 Notes:
 I want this as a secondary site NAS that just sits in a corner and happily backs up data from my Synology disk station. It's not designed as a primary network storage device but I do want to come back around for a second revision and build a better one with better support for using drives at their full speed. This is wired in a way that you are limited to USB 2.0 Link speeds (even if you buy USB3.0 adapters). The PI4 and 5 do not have enough USB3 ports to connect all 3 drives, and the 2 and 3 only have 2.0 ports, so if another revision is done it will have to include a hub to act as a controller and be restricted to the 4 and 5 model. Being that this has already gotten a bit out of hand scope wise, I didn't really feel like adding a custom PCB to the mix would be helpful. 
