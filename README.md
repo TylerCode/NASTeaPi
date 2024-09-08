@@ -2,8 +2,6 @@
 
 **__THIS IS STILL A VERY WIP BUILD. I WOULD WAIT UNTIL THIS IS REMOVED BEFORE 3D PRINTING OR BUILDING THIS__**
 
-
-
 ![image](https://github.com/user-attachments/assets/d0cc242d-6f9c-4613-ae51-bb5666934720)
 
 NASTea Pi, a small pi powered NAS that is cheap to build, but as the saying goes, it's not exactly fast to build, and it's not overly that great either (see notes). 
