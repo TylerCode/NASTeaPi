@@ -19,7 +19,7 @@ const (
 	pwmFrequency   = 25000 // 25 kHz
 	updateInterval = 5 * time.Second
 	minTemp        = 45.0 // Celsius
-	maxTemp        = 75.0 // Celsius
+	maxTemp        = 55.0 // Celsius
 	tempFile       = "/sys/class/thermal/thermal_zone0/temp"
 )
 
