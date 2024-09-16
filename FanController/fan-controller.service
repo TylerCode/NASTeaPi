@@ -1,0 +1,11 @@
+[Unit]
+Description=Raspberry Pi Fan Controller
+After=network.target
+
+[Service]
+ExecStart=/path/to/fan_controller
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
