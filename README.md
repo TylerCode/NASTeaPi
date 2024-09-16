@@ -1,6 +1,6 @@
 # NASTeaPi
 
-**__THIS IS STILL A VERY WIP BUILD. I WOULD WAIT UNTIL THIS IS REMOVED BEFORE 3D PRINTING OR BUILDING THIS__**
+**__In reality, I probably wouldn't build this unless you're just looking for a project with a lot of work.__**
 
 ![image](https://github.com/user-attachments/assets/d0cc242d-6f9c-4613-ae51-bb5666934720)
 
