@@ -1,6 +1,16 @@
 # NASTeaPi
+**__WIP, GIVE ME A MOMENT__**
 
-**__In reality, I probably wouldn't build this unless you're just looking for a project with a lot of work.__**
+![IMG_20240916_134336444](https://github.com/user-attachments/assets/bc13ccd7-e96a-4e18-a629-dc6ed73f86f8)
+
+In reality, there are a lot of better projects that do the same function with better documentation, better design, and better compatibility, however this was kind of purpose built to use up what I have on-hand. I ended up making 2 of these, both of the internal designs were different but I will be detailing the one that ended up needing less work (still a lot of work). See the end of this doc for the full gallery of images. 
+
+This chassis is made to be relatively flexible and also I've designed front plates for:
+- RPi 4/5
+- RPi 1/2/3
+- Modified RPi 1/2/3
+
+
 
 ![image](https://github.com/user-attachments/assets/d0cc242d-6f9c-4613-ae51-bb5666934720)
 
@@ -36,3 +46,13 @@ Also also, I recommend a [Noctua 40x40x20mm](https://www.amazon.com/gp/product/B
 ![image](https://github.com/user-attachments/assets/1edec0ec-a0c8-4e96-a2f0-7c502580d46a)
 
 Instructions and wiring diagrams to be done in the coming days after I finish the initial build. 
+
+Here are images of the other build just to get a better sense of size/scale/design in your space.
+![20240906_113234](https://github.com/user-attachments/assets/18bd2b58-22e7-464c-9a11-35405c446335)
+![20240906_113246](https://github.com/user-attachments/assets/021f5fb2-a567-4727-993f-0b9f75b50976)
+![20240906_113255](https://github.com/user-attachments/assets/a314fa8b-b3e6-4227-819d-9241c52b5ce1)
+![20240906_113307](https://github.com/user-attachments/assets/dbbc4bf9-869a-466e-9687-599e92056e89)
+![20240906_113350](https://github.com/user-attachments/assets/0e2cbaa7-e6c3-477c-ac85-01bba730f467)
+![20240906_113401](https://github.com/user-attachments/assets/3de29452-d0ca-4421-b9fb-bfd538f9642b)
+
+
