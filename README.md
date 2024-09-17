@@ -64,6 +64,7 @@ Once you have everything printed, you may need to file some rough edges but over
 This part is optional, but it is what I did to make soldering the connectors easier AND to improve airflow over the CPU. So time to take your raspberry PI 3, and desolder the USB connectors (all of them). First, put kapton tape on the bottom of the PI in a way that will protect the small SMD components on the board near the USB ports, then place the PI gently into a vice. With about 420 degrees of heat, gently use a rework station to blow over the USB pins of each set of USB ports while putting light pulling pressure with some pliers. After a few moments they will come free, you may have some internal pins get stuck, just desolder those with a normal iron. Once you have them out, use some solder wick to pull out the rest of the solder. 
 
 Now, if your drives use LESS than 5w total power, then you can solder wires directly to the solder points for the USB ports following this pinout.
+
 ![image](https://github.com/user-attachments/assets/a7d29cb5-6e4e-426d-8b99-8c05b4f17c50)
 
 If your drives use MORE than 5w total power, you can try tapping the V+ straight from the USB-C adapter (This is how the PiNAS project does it), however since most adapters only deliver 3A max, this may not work and you're likely better off finding another project that integrates power better. For my USB 4 powered one, I ended up stuffing a powered USB adapter in the case too and fed another cable through the front to get power to it. Jank, but it works. 
