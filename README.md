@@ -1,6 +1,7 @@
 # NASTeaPi
 
 NASTea Pi, a small pi powered NAS that is cheap to build, but as the saying goes, it's not exactly fast to build, and it's not overly that great either. For me the purpose of this was to act as a secondary data backup site as I have a Synology disk station for my main backups. The priority on this was low power and redundancy so that my other NAS can send backups to it overnight. I do plan on a 2.0 of this with a more robust design.
+
 ![IMG_20240916_134336444](https://github.com/user-attachments/assets/bc13ccd7-e96a-4e18-a629-dc6ed73f86f8)
 
 # Introduction
@@ -57,6 +58,7 @@ I just went with a Sparkfun breakout, but any with [this rough layout](https://w
 I'll be doing a better write-up on this in the future, might make a video or a blog post going through the steps, but here is the rough guide. Again, I am not being very detailed here and you could easily burn yourself doing this so do NOT attempt this unless you know what you're doing. 
 
 So, first up you gotta 3D Print everything, the parts are all designed to be printed without supports in this orientation:
+
 ![image](https://github.com/user-attachments/assets/b58eb38f-0422-4726-bb30-df61f981468e)
 
 Once you have everything printed, you may need to file some rough edges but overall very smooth. 
@@ -76,6 +78,7 @@ Next, solder the USB-C breakout to the two test pads near your Raspberry PI's po
 Lastly, take your female USB connector, and solder it to the place I marked above as "DO NOT USE THIS PORT"
 
 After that, you should have something that looks like this:
+
 ![IMG_20240912_143647902](https://github.com/user-attachments/assets/bd32660b-a6bb-4371-92dd-a7fc859ce0fd)
 
 We'll continue the build in the "Assembly" below after software.
@@ -85,6 +88,7 @@ We'll continue the build in the "Assembly" below after software.
 So honestly, I'm still figuring out how I want to do this, but so far I'm just doing everything manually with mdadm to create the raid and the normal suite of services to create the shares and whatnot. I tried getting this to work in open media vault but the raid options are lackluster since it doesn't seem to support RAID 5 out of the box. 
 
 I will enhance this as I deploy these and use them. For now, you'll want to look into options that work for you and test in the meantime. Flash Raspberry Pi OS Lite (64Bit) to the pi, then once it's setup, use the `lsblk` command. You should see `sda, sdb, and sdc` like so: 
+
 ![image](https://github.com/user-attachments/assets/1f79fc0f-e1b0-4dae-bbb0-12b0e283f7ff)
 
 If you see this, then at least you know your soldering job is done, if you DONT see these with drives connected then your USB connection needs another look. 
@@ -96,9 +100,12 @@ I also have a fan speed service included in here but I need to test/document it 
 Basically, we're just shoving everything in. Carefully put the SATA adapters in through the back while sliding drives in the front. Line them up and push them in place. Then we HOT GLUE the Raspberry PI in place (I know, jank, just make sure to put the front panel on to help get it aligned). Once that's dry, we're going to glue the USB connector to the side (I used a q-tip to hold it in place while it cured).
 
 After that, put the M3x30 Screws through the fan grille, fan, and rear shroud, using a nut on the other end to hold them all together, this should make a little fan sandwich. Then we take the M4 screws and screw the rear shroud onto the chassis. In the meantime before I get the documentation out, you can solder or make a connector for the V+ and gnd on the fan to go to the GPIO, this way it's working and active (though always at 100 percent)
+
 ![IMG_20240916_154040939](https://github.com/user-attachments/assets/c80c4a70-3a3a-463e-9947-3e664e08d2da)
 
-Finally slide the front panel into place, and screw it to the front of the chassis. With that, you've got yourself a NAS that isn't super fast but gets the job done! Here are all the pictures of the RPi 3 build:
+Finally slide the front panel into place, and screw it to the front of the chassis. With that, you've got yourself a NAS that isn't super fast but gets the job done!
+
+## Here are all the pictures of the RPi 3 build:
 
 ![IMG_20240916_134336444](https://github.com/user-attachments/assets/dca5c1db-3f0b-47af-b2c7-ae82019df462)
 ![IMG_20240916_154040939](https://github.com/user-attachments/assets/ddf4cc68-791b-41c8-88f8-1a099ee67de3)
