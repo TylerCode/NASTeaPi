@@ -85,7 +85,7 @@ We'll continue the build in the "Assembly" below after software.
 
 # Software
 
-So honestly, I'm still figuring out how I want to do this, but so far I'm just doing everything manually with mdadm to create the raid and the normal suite of services to create the shares and whatnot. I tried getting this to work in open media vault but the raid options are lackluster since it doesn't seem to support RAID 5 out of the box. 
+So honestly, I'm still figuring out how I want to do this, but so far I'm just doing everything manually with mdadm to create the raid and the normal suite of services to create the shares and whatnot. I tried getting this to work in open media vault but the raid options are lackluster since it doesn't seem to support RAID 5 out of the box and all the extension options seemed either abandoned or spotty.
 
 I will enhance this as I deploy these and use them. For now, you'll want to look into options that work for you and test in the meantime. Flash Raspberry Pi OS Lite (64Bit) to the pi, then once it's setup, use the `lsblk` command. You should see `sda, sdb, and sdc` like so: 
 
